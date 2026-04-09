@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>RA: 5135801 - Fale Conosco</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo_esquerda.css">
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="links.html">Links</a> |
+        <a href="imagens.html">Imagens</a>
+    </nav>
+
+    <main>
+        <div class="container">
+            <h1>Fale Conosco 📧</h1>
+            <p>Envie sua mensagem para a equipe do Música Online!</p>
+            
+            <hr>
+
+            <form action="#" method="post">
+                <!-- Campo de texto -->
+                <div class="form-group">
+                    <label for="nome">Nome completo:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+                </div>
+
+                <!-- Botões de rádio -->
+                <div class="form-group">
+                    <label>Você é:</label>
+                    <div class="radio-group">
+                        <input type="radio" id="estudante" name="perfil" value="estudante">
+                        <label for="estudante">Estudante</label>
+                        
+                        <input type="radio" id="profissional" name="perfil" value="profissional">
+                        <label for="profissional">Profissional de música</label>
+                        
+                        <input type="radio" id="ouvinte" name="perfil" value="ouvinte">
+                        <label for="ouvinte">Apenas ouvinte</label>
+                    </div>
+                </div>
+
+                <!-- Caixa de seleção -->
+                <div class="form-group">
+                    <label for="assunto">Assunto:</label>
+                    <select id="assunto" name="assunto">
+                        <option value="">Selecione um assunto</option>
+                        <option value="sugestao">Sugestão de conteúdo</option>
+                        <option value="duvida">Dúvida sobre o site</option>
+                        <option value="parceria">Parceria / Divulgação</option>
+                        <option value="erro">Reportar erro</option>
+                        <option value="outros">Outros</option>
+                    </select>
+                </div>
+
+                <!-- Textarea -->
+                <div class="form-group">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" placeholder="Digite sua mensagem aqui..." required></textarea>
+                </div>
+
+                <!-- Botão de envio -->
+                <div class="form-group">
+                    <button type="submit">Enviar mensagem</button>
+                </div>
+            </form>
+
+            <hr>
+            
+            <!-- Lista ordenada e não ordenada -->
+            <h3>Informações úteis:</h3>
+            
+            <p><strong>📌 Como podemos ajudar:</strong></p>
+            <ul>
+                <li>Dúvidas sobre o site</li>
+                <li>Sugestões de novos conteúdos</li>
+                <li>Indicação de artistas</li>
+                <li>Parcerias e divulgações</li>
+            </ul>
+            
+            <p><strong>⏰ Prazo para resposta:</strong></p>
+            <ol>
+                <li>Segunda a sexta: até 24h</li>
+                <li>Sábados: até 48h</li>
+                <li>Domingos: respondemos na segunda</li>
+            </ol>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2026 - Richard Teixeira</p>
+    </footer>
+</body>
+
+</html>
