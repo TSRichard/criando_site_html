@@ -25,7 +25,7 @@ Site temático sobre música, desenvolvido em HTML5 e CSS, atendendo todos os re
 ---
 
 ## 📁 Estrutura do Projeto
-
+```
 Richard Teixeira/
 │
 ├── index.html
@@ -43,8 +43,7 @@ Richard Teixeira/
     ├── teclado.jpg
     ├── microfone.jpg
     └── banda.jpg
-
-
+```
 ---
 
 ## 🖥️ Tecnologias Utilizadas
@@ -106,12 +105,6 @@ https://github.com/TSRichard/criando_site_html
 **Richard Teixeira dos Santos**  
 RA: 5135801  
 Universidade de Uberaba (Uniube)
-
----
-
-## 📅 Data
-
-2026
 
 ---
 
