@@ -90,7 +90,9 @@ Foram criados dois arquivos CSS:
 
 ### Opção 1: Acessar online (GitHub Pages)
 Após o upload, o site estará disponível em:
+```
 https://tsrichard.github.io/criando_site_html/
+```
 
 ### Opção 2: Executar localmente
 1. Baixe todos os arquivos do projeto
